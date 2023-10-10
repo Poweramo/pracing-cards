@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.cards {
+  display: flex;
+  width: 80vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  background: gray;
+  margin: auto 40px;
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 20%;
+  height: 450px;
+  background: #8395fc;
+  border: 2px solid #5360b0;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.amount {
+  font-family: "Poppins", sans-serif;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: "Barlow Condensed", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 130%;
+}
+
+.buy {
+  user-select: none;
+  cursor: pointer;
+  background: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  border: 2px solid pink;
+  height: 30px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buy:hover {
+  background: linear-gradient(120deg, #d57eeb 0%, #fccb90 100%);
+}
